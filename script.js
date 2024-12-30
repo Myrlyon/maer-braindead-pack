@@ -7,10 +7,11 @@ window.addEventListener("scroll", () => {
     batter.style.left = value * 2.0 + "px";
     valerie.style.top = value * 1.0 + "px";
     });
-
-    window.addEventListener("click", () => {
-    document.getElementById("song").play();
-    });
+    window.onload = () => {
+                const music = document.getElementById('song');
+                music.play()
+                console.log('Music is playing...');
+            };
 
     window.onscroll = function () {
     scrollFunction();
