@@ -203,9 +203,15 @@
         <button id="btn" onclick="topFunction()">Hit Valerio</button>
         </div>
         <audio
-        id="song"
+        id="music"
         src="audio/y2mate.com - OFF OST 04 Peper Steak.mp3"
         ></audio>
-        <script src="script.js"></script>
+        <script>
+            window.onload = () => {
+                const music = document.getElementById('music');
+                music.play()
+                console.log('Music is playing...');
+            };
+        </script>
     </body>
 </html>
