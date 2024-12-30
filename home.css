@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.box {
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+}
+.icon {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%; 
+    height: 100%;
+    fill: none;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+}
+#b1 { background-image: url(img/8752135accc092586f37aebe8ca1d052--ghost-games-poster.jpg); 
+    background-size: cover;
+}
+#b2 { background: #ffffff; 
+    color: rgb(0, 0, 0);    
+    text-align: center;
+    font-family: 'VT323';
+    
+}
+#b3 { 
+    background-image: url(img/MV5BNmExZWVkYzMtN2VhYS00ZDVjLWFkMjgtYjFmMDhmN2RhM2U3XkEyXkFqcGdeQXVyMTI0MDgyMzQ1._V1_FMjpg_UX1000_.jpg); 
+    background-size: cover;
+}
+.icon { stroke: #FFFFFF; opacity: .95; }

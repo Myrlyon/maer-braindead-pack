@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323';
+    background-color: #feeabd;
+}
+
+.Orgcreator{
+    text-align: center;
+    padding-top: 240px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.Name{
+    padding-top: 20px;
+}
+
+.Title{
+    padding-top: 10px;
+}
